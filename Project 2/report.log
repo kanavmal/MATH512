@@ -1,0 +1,327 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.23)  8 FEB 2024 10:53
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**"c:/Users/jacob/Desktop/Repos/MATH512/Project 2/report.tex"
+(c:/Users/jacob/Desktop/Repos/MATH512/Project 2/report.tex
+LaTeX2e <2022-06-01> patch level 5
+L3 programming layer <2022-09-28> (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+) (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+(C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+ (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks18
+\ex@=\dimen139
+)) (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen140
+) (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count193
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count194
+\leftroot@=\count195
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count196
+\DOTSCASE@=\count197
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box51
+\strutbox@=\box52
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen141
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count198
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count199
+\dotsspace@=\muskip16
+\c@parentequation=\count266
+\dspbrk@lvl=\count267
+\tag@help=\toks19
+\row@=\count268
+\column@=\count269
+\maxfields@=\count270
+\andhelp@=\toks20
+\eqnshift@=\dimen142
+\alignsep@=\dimen143
+\tagshift@=\dimen144
+\tagwidth@=\dimen145
+\totwidth@=\dimen146
+\lineht@=\dimen147
+\@envbody=\toks21
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks22
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+) (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks23
+\thm@bodyfont=\toks24
+\thm@headfont=\toks25
+\thm@notefont=\toks26
+\thm@headpunct=\toks27
+\thm@preskip=\skip52
+\thm@postskip=\skip53
+\thm@headsep=\skip54
+\dth@everypar=\toks28
+) (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\enitkv@toks@=\toks29
+\labelindent=\skip55
+\enit@outerparindent=\dimen148
+\enit@toks=\toks30
+\enit@inbox=\box53
+\enit@count@id=\count271
+\enitdp@description=\count272
+) (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks31
+) (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+ (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+\stockwidth=\dimen149
+\stockheight=\dimen150
+))
+\Gin@req@height=\dimen151
+\Gin@req@width=\dimen152
+) (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-09-28 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count273
+\l__pdf_internal_box=\box54
+) (report.aux)
+\openout1 = `report.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
+LaTeX Font Info:    ... okay on input line 11.
+ (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count274
+\scratchdimen=\dimen153
+\scratchbox=\box55
+\nofMPsegments=\count275
+\nofMParguments=\count276
+\everyMPshowfont=\toks32
+\MPscratchCnt=\count277
+\MPscratchDim=\dimen154
+\MPnumerator=\count278
+\makeMPintoPDFobject=\count279
+\everyMPtoPDFconversion=\toks33
+) (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+ (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+LaTeX Font Info:    Trying to load font information for U+msa on input line 13.
+ (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 13.
+ (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+Overfull \hbox (13.55756pt too wide) in paragraph at lines 13--13
+ [][] 
+ []
+
+<imgs/1a.png, id=1, 234.1548pt x 192.9609pt>
+File: imgs/1a.png Graphic file (type png)
+<use imgs/1a.png>
+Package pdftex.def Info: imgs/1a.png  used on input line 32.
+(pdftex.def)             Requested size: 163.90723pt x 135.0717pt.
+<imgs/1d.png, id=3, 310.761pt x 192.9609pt>
+File: imgs/1d.png Graphic file (type png)
+<use imgs/1d.png>
+Package pdftex.def Info: imgs/1d.png  used on input line 43.
+(pdftex.def)             Requested size: 217.5312pt x 135.0717pt.
+[1
+
+{C:/Users/jacob/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./imgs/1a.png>]
+<imgs/pairs.png, id=19, 245.718pt x 192.9609pt>
+File: imgs/pairs.png Graphic file (type png)
+<use imgs/pairs.png>
+Package pdftex.def Info: imgs/pairs.png  used on input line 49.
+(pdftex.def)             Requested size: 172.00142pt x 135.0717pt.
+<imgs/discrete.png, id=20, 234.1548pt x 192.9609pt>
+File: imgs/discrete.png Graphic file (type png)
+<use imgs/discrete.png>
+Package pdftex.def Info: imgs/discrete.png  used on input line 71.
+(pdftex.def)             Requested size: 163.90723pt x 135.0717pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--72
+
+ []
+
+[2 <./imgs/1d.png> <./imgs/pairs.png>]
+<imgs/binomialrv.png, id=27, 359.1819pt x 192.9609pt>
+File: imgs/binomialrv.png Graphic file (type png)
+<use imgs/binomialrv.png>
+Package pdftex.def Info: imgs/binomialrv.png  used on input line 77.
+(pdftex.def)             Requested size: 251.42561pt x 135.0717pt.
+
+Overfull \hbox (2.64409pt too wide) in paragraph at lines 77--82
+\OT1/cmr/m/n/10 Time for gen-er-a-tion: $0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 0349$ sec-onds. Prob-a-bil-ity that $\OML/cmm/m/it/10 X < \OT1/cmr/m/n/10 50$: $0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 00000000$.
+ []
+
+
+Package amsmath Warning: Foreign command \atopwithdelims;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 85.
+
+<imgs/binomialinverse.png, id=28, 362.0727pt x 192.9609pt>
+File: imgs/binomialinverse.png Graphic file (type png)
+<use imgs/binomialinverse.png>
+Package pdftex.def Info: imgs/binomialinverse.png  used on input line 90.
+(pdftex.def)             Requested size: 253.44916pt x 135.0717pt.
+[3 <./imgs/discrete.png> <./imgs/binomialrv.png>]
+<imgs/poissonrv.png, id=34, 240.6591pt x 192.9609pt>
+File: imgs/poissonrv.png Graphic file (type png)
+<use imgs/poissonrv.png>
+Package pdftex.def Info: imgs/poissonrv.png  used on input line 98.
+(pdftex.def)             Requested size: 168.46022pt x 135.0717pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+
+ []
+
+<imgs/exprv.png, id=35, 376.5267pt x 192.9609pt>
+File: imgs/exprv.png Graphic file (type png)
+<use imgs/exprv.png>
+Package pdftex.def Info: imgs/exprv.png  used on input line 101.
+(pdftex.def)             Requested size: 263.56688pt x 135.0717pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 101--102
+
+ []
+
+[4 <./imgs/binomialinverse.png> <./imgs/poissonrv.png>]
+<imgs/cauchyrv.png, id=41, 352.6776pt x 192.9609pt>
+File: imgs/cauchyrv.png Graphic file (type png)
+<use imgs/cauchyrv.png>
+Package pdftex.def Info: imgs/cauchyrv.png  used on input line 104.
+(pdftex.def)             Requested size: 246.87262pt x 135.0717pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 104--105
+
+ []
+
+[5 <./imgs/exprv.png> <./imgs/cauchyrv.png>]
+<imgs/balls.png, id=47, 237.0456pt x 192.9609pt>
+File: imgs/balls.png Graphic file (type png)
+<use imgs/balls.png>
+Package pdftex.def Info: imgs/balls.png  used on input line 173.
+(pdftex.def)             Requested size: 165.93077pt x 135.0717pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 173--174
+
+ []
+
+[6]
+<imgs/boxmuller.png, id=52, 299.1978pt x 192.9609pt>
+File: imgs/boxmuller.png Graphic file (type png)
+<use imgs/boxmuller.png>
+Package pdftex.def Info: imgs/boxmuller.png  used on input line 188.
+(pdftex.def)             Requested size: 209.43701pt x 135.0717pt.
+<imgs/marsagliabray.png, id=53, 320.1561pt x 192.9609pt>
+File: imgs/marsagliabray.png Graphic file (type png)
+<use imgs/marsagliabray.png>
+Package pdftex.def Info: imgs/marsagliabray.png  used on input line 189.
+(pdftex.def)             Requested size: 224.10773pt x 135.0717pt.
+<imgs/acceptancerejection.png, id=54, 344.7279pt x 192.9609pt>
+File: imgs/acceptancerejection.png Graphic file (type png)
+<use imgs/acceptancerejection.png>
+Package pdftex.def Info: imgs/acceptancerejection.png  used on input line 190.
+(pdftex.def)             Requested size: 241.30788pt x 135.0717pt.
+<imgs/numpyrandomrv.png, id=55, 317.2653pt x 192.9609pt>
+File: imgs/numpyrandomrv.png Graphic file (type png)
+<use imgs/numpyrandomrv.png>
+Package pdftex.def Info: imgs/numpyrandomrv.png  used on input line 191.
+(pdftex.def)             Requested size: 222.0842pt x 135.0717pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 188--192
+
+ []
+
+[7 <./imgs/balls.png>] [8 <./imgs/boxmuller.png> <./imgs/marsagliabray.png> <./imgs/acceptancerejection.png>] [9 <./imgs/numpyrandomrv.png>] (report.aux) ) 
+Here is how much of TeX's memory you used:
+ 3113 strings out of 475385
+ 48575 string characters out of 2776906
+ 392113 words of memory out of 3000000
+ 24464 multiletter control sequences out of 15000+600000
+ 476675 words of font info for 58 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 55i,8n,62p,285b,294s stack positions out of 10000i,1000n,20000p,200000b,80000s
+<C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on report.pdf (9 pages, 288129 bytes).
+PDF statistics:
+ 121 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+
