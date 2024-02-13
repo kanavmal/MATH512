@@ -1,6 +1,6 @@
 # Fdb version 3
-["pdflatex"] 1707418406 "c:/Users/jacob/Desktop/Repos/MATH512/Project 2/report.tex" "report.pdf" "report" 1707418407
-  "C:/Users/jacob/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1706186866 341159 3f93ff664f991926ca2b815bb5dc78f0 ""
+["pdflatex"] 1707864385 "c:/Users/jacob/Desktop/Repos/MATH512/Project 2/report.tex" "report.pdf" "report" 1707864386
+  "C:/Users/jacob/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1707480969 592917 ec172e4cf94373ad55ebfa8065dd1936 ""
   "C:/Users/jacob/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1666547453 10788011 2c52fbefbc7f413ada0758682a6b1c8d ""
   "C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
   "C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -60,10 +60,10 @@
   "C:/Users/jacob/AppData/Local/Programs/MiKTeX/tex/latex/graphics/trig.sty" 1665063979 4023 293ea1c16429fc0c4cf605f4da1791a9 ""
   "C:/Users/jacob/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1664385028 30426 b4bd1ea7df6c51902df8edf551809fb7 ""
   "c:/Users/jacob/Desktop/Repos/MATH512/Project 2/report.tex" 1707418404 7472 4bf75766d485c7bf1bb456462545269f ""
-  "imgs/1a.png" 1707415182 12476 e2b21888ecc6faa73cbca6133324502d ""
+  "imgs/1a.png" 1707864383 12529 a2c98837aaabbe82fc80910878bb74bb ""
   "imgs/1d.png" 1707415191 13389 059c1e40cbb449f5b32f54e6d6236165 ""
   "imgs/acceptancerejection.png" 1707415268 16871 9a5a0bae56db3d596ecf4cc8b8890a94 ""
-  "imgs/balls.png" 1707415247 8279 e84e543f2b2e3ddb133e96d856a73bb5 ""
+  "imgs/balls.png" 1707843409 33879 959b03b06101cb54a9c8949127fc49f3 ""
   "imgs/binomialinverse.png" 1707415220 14033 9ec8467e6b7c35941e137a98d99727b1 ""
   "imgs/binomialrv.png" 1707415212 13940 f5f9089595f5bef3a12affdd76f42d9e ""
   "imgs/boxmuller.png" 1707415255 16521 aed9efee1bb52f73723c25bbb89410fe ""
@@ -74,7 +74,7 @@
   "imgs/numpyrandomrv.png" 1707415276 16471 c00a8a5d67fda06eb5e500e70666d3c4 ""
   "imgs/pairs.png" 1707415198 10265 bd951558cc719acb9aea24a40625cda3 ""
   "imgs/poissonrv.png" 1707415228 10180 dcb031169894f4fe9e58669b98f35899 ""
-  "report.aux" 1707418407 32 1b174032087fb90900fa6203d3bb0a7e "pdflatex"
+  "report.aux" 1707864386 32 1b174032087fb90900fa6203d3bb0a7e "pdflatex"
   "report.tex" 1707418404 7472 4bf75766d485c7bf1bb456462545269f ""
   (generated)
   "report.aux"

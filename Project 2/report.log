@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.23)  8 FEB 2024 10:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.23)  13 FEB 2024 14:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -273,33 +273,38 @@ Underfull \hbox (badness 10000) in paragraph at lines 104--105
  []
 
 [5 <./imgs/exprv.png> <./imgs/cauchyrv.png>]
-<imgs/balls.png, id=47, 237.0456pt x 192.9609pt>
+<imgs/balls.png, id=47, 708.246pt x 708.246pt>
 File: imgs/balls.png Graphic file (type png)
 <use imgs/balls.png>
 Package pdftex.def Info: imgs/balls.png  used on input line 173.
-(pdftex.def)             Requested size: 165.93077pt x 135.0717pt.
+(pdftex.def)             Requested size: 495.76881pt x 495.76881pt.
+
+Overfull \hbox (150.76881pt too wide) in paragraph at lines 173--174
+[] 
+ []
+
 
 Underfull \hbox (badness 10000) in paragraph at lines 173--174
 
  []
 
-[6]
-<imgs/boxmuller.png, id=52, 299.1978pt x 192.9609pt>
+[6] [7 <./imgs/balls.png>]
+<imgs/boxmuller.png, id=57, 299.1978pt x 192.9609pt>
 File: imgs/boxmuller.png Graphic file (type png)
 <use imgs/boxmuller.png>
 Package pdftex.def Info: imgs/boxmuller.png  used on input line 188.
 (pdftex.def)             Requested size: 209.43701pt x 135.0717pt.
-<imgs/marsagliabray.png, id=53, 320.1561pt x 192.9609pt>
+<imgs/marsagliabray.png, id=58, 320.1561pt x 192.9609pt>
 File: imgs/marsagliabray.png Graphic file (type png)
 <use imgs/marsagliabray.png>
 Package pdftex.def Info: imgs/marsagliabray.png  used on input line 189.
 (pdftex.def)             Requested size: 224.10773pt x 135.0717pt.
-<imgs/acceptancerejection.png, id=54, 344.7279pt x 192.9609pt>
+<imgs/acceptancerejection.png, id=59, 344.7279pt x 192.9609pt>
 File: imgs/acceptancerejection.png Graphic file (type png)
 <use imgs/acceptancerejection.png>
 Package pdftex.def Info: imgs/acceptancerejection.png  used on input line 190.
 (pdftex.def)             Requested size: 241.30788pt x 135.0717pt.
-<imgs/numpyrandomrv.png, id=55, 317.2653pt x 192.9609pt>
+<imgs/numpyrandomrv.png, id=60, 317.2653pt x 192.9609pt>
 File: imgs/numpyrandomrv.png Graphic file (type png)
 <use imgs/numpyrandomrv.png>
 Package pdftex.def Info: imgs/numpyrandomrv.png  used on input line 191.
@@ -309,7 +314,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 188--192
 
  []
 
-[7 <./imgs/balls.png>] [8 <./imgs/boxmuller.png> <./imgs/marsagliabray.png> <./imgs/acceptancerejection.png>] [9 <./imgs/numpyrandomrv.png>] (report.aux) ) 
+[8 <./imgs/boxmuller.png> <./imgs/marsagliabray.png>] [9 <./imgs/acceptancerejection.png> <./imgs/numpyrandomrv.png>] (report.aux) ) 
 Here is how much of TeX's memory you used:
  3113 strings out of 475385
  48575 string characters out of 2776906
@@ -319,7 +324,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  55i,8n,62p,285b,294s stack positions out of 10000i,1000n,20000p,200000b,80000s
 <C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on report.pdf (9 pages, 288129 bytes).
+Output written on report.pdf (9 pages, 310710 bytes).
 PDF statistics:
  121 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
