@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.23)  20 FEB 2024 07:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.23)  21 FEB 2024 06:53
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -842,7 +842,6 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Package hyperref Info: Link coloring OFF on input line 18.
- (main.out) (main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
@@ -975,238 +974,31 @@ LaTeX Font Info:    Font shape `T1/Alegreya-OsF/regular/n' will be
 (Font)              scaled to size 10.95pt on input line 20.
  [1
 
-{C:/Users/jacob/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-LaTeX Font Info:    Font shape `T1/AlegreyaSans-OsF/m/n' in size <12> not available
-(Font)              Font shape `T1/AlegreyaSans-OsF/regular/n' tried instead on input line 38.
-LaTeX Font Info:    Font shape `T1/AlegreyaSans-OsF/regular/n' will be
-(Font)              scaled to size 12.0pt on input line 38.
-LaTeX Font Info:    Font shape `T1/AlegreyaSans-OsF/m/n' in size <8> not available
-(Font)              Font shape `T1/AlegreyaSans-OsF/regular/n' tried instead on input line 38.
-LaTeX Font Info:    Font shape `T1/AlegreyaSans-OsF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 38.
-LaTeX Font Info:    Trying to load font information for U+zeur on input line 38.
- (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/eulervm\uzeur.fd
-File: uzeur.fd 2005/01/11 v4.0 (WaS)
-) (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-eur.cfg
-File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
-)
-LaTeX Font Info:    Trying to load font information for U+zeus on input line 38.
- (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/eulervm\uzeus.fd
-File: uzeus.fd 2005/01/11 v4.0 (WaS)
-) (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-eus.cfg
-File: mt-eus.cfg 2006/07/28 v1.2 microtype config. file: AMS Euler Script (RS)
-)
-LaTeX Font Info:    Trying to load font information for U+zeuex on input line 38.
- (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/eulervm\uzeuex.fd
-File: uzeuex.fd 2005/01/11 v4.0 (WaS)
-) (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-) (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)
-LaTeX Font Info:    Font shape `T1/Alegreya-OsF/m/n' in size <8> not available
-(Font)              Font shape `T1/Alegreya-OsF/regular/n' tried instead on input line 38.
-LaTeX Font Info:    Font shape `T1/Alegreya-OsF/regular/n' will be
-(Font)              scaled to size 8.0pt on input line 38.
-LaTeX Font Info:    Font shape `T1/Alegreya-OsF/m/it' in size <8> not available
-(Font)              Font shape `T1/Alegreya-OsF/regular/it' tried instead on input line 38.
-LaTeX Font Info:    Font shape `T1/Alegreya-OsF/regular/it' will be
-(Font)              scaled to size 8.0pt on input line 38.
-LaTeX Font Info:    Font shape `T1/Alegreya-OsF/m/it' in size <6> not available
-(Font)              Font shape `T1/Alegreya-OsF/regular/it' tried instead on input line 38.
-LaTeX Font Info:    Font shape `T1/Alegreya-OsF/regular/it' will be
-(Font)              scaled to size 6.0pt on input line 38.
-LaTeX Font Info:    Font shape `T1/Alegreya-OsF/m/n' in size <17.28> not available
-(Font)              Font shape `T1/Alegreya-OsF/regular/n' tried instead on input line 38.
-LaTeX Font Info:    Font shape `T1/Alegreya-OsF/regular/n' will be
-(Font)              scaled to size 17.28pt on input line 38.
-LaTeX Font Info:    Font shape `T1/Alegreya-OsF/sb/n' in size <17.28> not available
-(Font)              Font shape `T1/Alegreya-OsF/medium/n' tried instead on input line 38.
-LaTeX Font Info:    Font shape `T1/Alegreya-OsF/medium/n' will be
-(Font)              scaled to size 17.28pt on input line 38.
-LaTeX Font Info:    Font shape `T1/Alegreya-OsF/sb/n' in size <14.4> not available
-(Font)              Font shape `T1/Alegreya-OsF/medium/n' tried instead on input line 38.
-LaTeX Font Info:    Font shape `T1/Alegreya-OsF/medium/n' will be
-(Font)              scaled to size 14.4pt on input line 38.
-LaTeX Font Info:    Font shape `T1/Alegreya-OsF/m/n' in size <4> not available
-(Font)              Font shape `T1/Alegreya-OsF/regular/n' tried instead on input line 38.
-LaTeX Font Info:    Font shape `T1/Alegreya-OsF/regular/n' will be
-(Font)              scaled to size 4.0pt on input line 38.
- [2
+{C:/Users/jacob/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}])
+Runaway argument?
+\@kernel@before@enddocument \UseOneTimeHook {enddocument}\@kernel@after@enddocument \ETC.
+! File ended while scanning use of \beamer@collect@@body.
+<inserted text> 
+                \par 
+<*> ...os/MATH512/Project 2/Presentation/main.tex"
+                                                  
+I suspect you have forgotten a `}', causing me
+to read past where you wanted me to stop.
+I'll try to recover; but if the error is serious,
+you'd better type `E' or `X' now and fix your file.
 
-]
-<imgs/1a.png, id=256, 234.1548pt x 192.9609pt>
-File: imgs/1a.png Graphic file (type png)
-<use imgs/1a.png>
-Package pdftex.def Info: imgs/1a.png  used on input line 45.
-(pdftex.def)             Requested size: 163.90723pt x 135.0717pt.
- [3
+! Emergency stop.
+<*> ...os/MATH512/Project 2/Presentation/main.tex"
+                                                  
+*** (job aborted, no legal \end found)
 
- <./imgs/1a.png>] [4
-
-]
-<imgs/1d.png, id=391, 310.761pt x 192.9609pt>
-File: imgs/1d.png Graphic file (type png)
-<use imgs/1d.png>
-Package pdftex.def Info: imgs/1d.png  used on input line 72.
-(pdftex.def)             Requested size: 217.5312pt x 135.0717pt.
- [5
-
- <./imgs/1d.png>]
-File: imgs/1a.png Graphic file (type png)
-<use imgs/1a.png>
-Package pdftex.def Info: imgs/1a.png  used on input line 91.
-(pdftex.def)             Requested size: 117.0771pt x 96.48021pt.
-File: imgs/1d.png Graphic file (type png)
-<use imgs/1d.png>
-Package pdftex.def Info: imgs/1d.png  used on input line 91.
-(pdftex.def)             Requested size: 155.38011pt x 96.48021pt.
-
-Overfull \hbox (17.10062pt too wide) in paragraph at lines 91--91
- [][] 
- []
-
-[6
-
-]
-<imgs/pairs.png, id=525, 245.718pt x 192.9609pt>
-File: imgs/pairs.png Graphic file (type png)
-<use imgs/pairs.png>
-Package pdftex.def Info: imgs/pairs.png  used on input line 101.
-(pdftex.def)             Requested size: 147.43193pt x 115.77742pt.
- [7
-
- <./imgs/pairs.png>] [8
-
-]
-<imgs/discrete.png, id=660, 234.1548pt x 192.9609pt>
-File: imgs/discrete.png Graphic file (type png)
-<use imgs/discrete.png>
-Package pdftex.def Info: imgs/discrete.png  used on input line 137.
-(pdftex.def)             Requested size: 140.49396pt x 115.77742pt.
- [9
-
- <./imgs/discrete.png>]
-
-Package amsmath Warning: Foreign command \atopwithdelims;
-(amsmath)                \frac or \genfrac should be used instead
-(amsmath)                 on input line 149.
-
-[10
-
-]
-<imgs/binomialinverse.png, id=796, 362.0727pt x 192.9609pt>
-File: imgs/binomialinverse.png Graphic file (type png)
-<use imgs/binomialinverse.png>
-Package pdftex.def Info: imgs/binomialinverse.png  used on input line 157.
-(pdftex.def)             Requested size: 253.44916pt x 135.0717pt.
- [11
-
- <./imgs/binomialinverse.png>] [12
-
-]
-<imgs/poissonrv.png, id=930, 240.6591pt x 192.9609pt>
-File: imgs/poissonrv.png Graphic file (type png)
-<use imgs/poissonrv.png>
-Package pdftex.def Info: imgs/poissonrv.png  used on input line 167.
-(pdftex.def)             Requested size: 168.46022pt x 135.0717pt.
- [13
-
- <./imgs/poissonrv.png>]
-<imgs/exprv.png, id=999, 376.5267pt x 192.9609pt>
-File: imgs/exprv.png Graphic file (type png)
-<use imgs/exprv.png>
-Package pdftex.def Info: imgs/exprv.png  used on input line 173.
-(pdftex.def)             Requested size: 263.56688pt x 135.0717pt.
- [14
-
- <./imgs/exprv.png>]
-<imgs/cauchyrv.png, id=1067, 352.6776pt x 192.9609pt>
-File: imgs/cauchyrv.png Graphic file (type png)
-<use imgs/cauchyrv.png>
-Package pdftex.def Info: imgs/cauchyrv.png  used on input line 179.
-(pdftex.def)             Requested size: 246.87262pt x 135.0717pt.
- [15
-
- <./imgs/cauchyrv.png>]
-LaTeX Font Info:    Font shape `U/px-math-ds/m/n' will be
-(Font)              scaled to size 12.0pt on input line 196.
-LaTeX Font Info:    Font shape `U/px-math-ds/m/n' will be
-(Font)              scaled to size 8.0pt on input line 196.
-LaTeX Font Info:    Font shape `U/px-math-ds/m/n' will be
-(Font)              scaled to size 6.0pt on input line 196.
- [16
-
-] [17
-
-]
-<imgs/balls.png, id=1268, 237.0456pt x 192.9609pt>
-File: imgs/balls.png Graphic file (type png)
-<use imgs/balls.png>
-Package pdftex.def Info: imgs/balls.png  used on input line 226.
-(pdftex.def)             Requested size: 71.11421pt x 57.8887pt.
- [18
-
- <./imgs/balls.png>]
-<imgs/boxmuller.png, id=1336, 299.1978pt x 192.9609pt>
-File: imgs/boxmuller.png Graphic file (type png)
-<use imgs/boxmuller.png>
-Package pdftex.def Info: imgs/boxmuller.png  used on input line 232.
-(pdftex.def)             Requested size: 209.43701pt x 135.0717pt.
- [19
-
- <./imgs/boxmuller.png>]
-<imgs/marsagliabray.png, id=1405, 320.1561pt x 192.9609pt>
-File: imgs/marsagliabray.png Graphic file (type png)
-<use imgs/marsagliabray.png>
-Package pdftex.def Info: imgs/marsagliabray.png  used on input line 236.
-(pdftex.def)             Requested size: 224.10773pt x 135.0717pt.
- [20
-
- <./imgs/marsagliabray.png>]
-<imgs/acceptancerejection.png, id=1473, 344.7279pt x 192.9609pt>
-File: imgs/acceptancerejection.png Graphic file (type png)
-<use imgs/acceptancerejection.png>
-Package pdftex.def Info: imgs/acceptancerejection.png  used on input line 240.
-(pdftex.def)             Requested size: 241.30788pt x 135.0717pt.
- [21
-
- <./imgs/acceptancerejection.png>]
-<imgs/numpyrandomrv.png, id=1541, 317.2653pt x 192.9609pt>
-File: imgs/numpyrandomrv.png Graphic file (type png)
-<use imgs/numpyrandomrv.png>
-Package pdftex.def Info: imgs/numpyrandomrv.png  used on input line 248.
-(pdftex.def)             Requested size: 222.0842pt x 135.0717pt.
- [22
-
- <./imgs/numpyrandomrv.png>] [23
-
-]
-\tf@nav=\write6
-\openout6 = `main.nav'.
-
-\tf@toc=\write7
-\openout7 = `main.toc'.
-
-\tf@snm=\write8
-\openout8 = `main.snm'.
-
- (main.aux)
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 235E805E9DA4BED2F01401C7191D48DA;1024.
- ) 
+ 
 Here is how much of TeX's memory you used:
- 36646 strings out of 475385
- 772958 string characters out of 2776906
- 1088402 words of memory out of 3000000
- 57114 multiletter control sequences out of 15000+600000
- 779949 words of font info for 175 fonts, out of 8000000 for 9000
+ 36070 strings out of 475385
+ 760291 string characters out of 2776906
+ 1075268 words of memory out of 3000000
+ 56770 multiletter control sequences out of 15000+600000
+ 636884 words of font info for 73 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,20n,122p,1063b,822s stack positions out of 10000i,1000n,20000p,200000b,80000s
-{C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/alegreya/algr_p7kywn.enc}{C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/alegreya/algr_u7nq5p.enc}{C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/alegreya/algr_dte76s.enc}<C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/huerta/alegreya/Alegreya-Bold.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/huerta/alegreya/Alegreya-Italic.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/huerta/alegreya/Alegreya-Medium.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/huerta/alegreya/Alegreya-Regular.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/huerta/alegreya/AlegreyaSans-Black.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/huerta/alegreya/AlegreyaSans-Regular.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/euex10.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eufm10.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eufm7.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eurm10.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eusm10.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam7.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/pxfonts/pxsyb.pfb>
-Output written on main.pdf (23 pages, 679619 bytes).
-PDF statistics:
- 1670 PDF objects out of 1728 (max. 8388607)
- 58 named destinations out of 1000 (max. 500000)
- 63684 words of extra memory for PDF output out of 74296 (max. 10000000)
-
+ 128i,13n,122p,1063b,701s stack positions out of 10000i,1000n,20000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
