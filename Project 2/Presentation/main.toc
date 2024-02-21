@@ -1,2 +1,0 @@
-\beamer@sectionintoc {1}{\lowercase {Question 1}}{2}{0}{1}
-\beamer@sectionintoc {2}{\lowercase {Question 2}}{9}{0}{2}
