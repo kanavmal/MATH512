@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.23)  21 FEB 2024 06:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.10.23)  21 FEB 2024 08:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -757,36 +757,55 @@ Package: beamerouterthemeArguelles 2023/10/26 Argüelles
 Package: beamercolorthemeArguelles 2023/10/26 Argüelles
 ) (beamerfontthemeArguelles.sty
 Package: beamerfontthemeArguelles 2023/10/26 Argüelles
-) (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerfontthemeserif.sty))
-LaTeX Font Info:    Trying to load font information for T1+Alegreya-OsF on input line 18.
+) (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/beamer\beamerfontthemeserif.sty)) (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen317
+\lightrulewidth=\dimen318
+\cmidrulewidth=\dimen319
+\belowrulesep=\dimen320
+\belowbottomsep=\dimen321
+\aboverulesep=\dimen322
+\abovetopsep=\dimen323
+\cmidrulesep=\dimen324
+\cmidrulekern=\dimen325
+\defaultaddspace=\dimen326
+\@cmidla=\count356
+\@cmidlb=\count357
+\@aboverulesep=\dimen327
+\@belowrulesep=\dimen328
+\@thisruleclass=\count358
+\@lastruleclass=\count359
+\@thisrulewidth=\dimen329
+)
+LaTeX Font Info:    Trying to load font information for T1+Alegreya-OsF on input line 19.
  (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/alegreya\t1alegreya-osf.fd
 File: T1Alegreya-OsF.fd 2019/10/08 (autoinst) Font definitions for T1/Alegreya-OsF.
 )
 LaTeX Font Info:    Font shape `T1/Alegreya-OsF/m/n' in size <12> not available
-(Font)              Font shape `T1/Alegreya-OsF/regular/n' tried instead on input line 18.
+(Font)              Font shape `T1/Alegreya-OsF/regular/n' tried instead on input line 19.
 LaTeX Font Info:    Font shape `T1/Alegreya-OsF/regular/n' will be
-(Font)              scaled to size 12.0pt on input line 18.
+(Font)              scaled to size 12.0pt on input line 19.
  (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 18.
-LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 19.
+LaTeX Font Info:    ... okay on input line 19.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -824,16 +843,16 @@ LaTeX Font Info:    ... okay on input line 18.
 
 (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count356
-\scratchdimen=\dimen317
+\scratchcounter=\count360
+\scratchdimen=\dimen330
 \scratchbox=\box93
-\nofMPsegments=\count357
-\nofMParguments=\count358
+\nofMPsegments=\count361
+\nofMParguments=\count362
 \everyMPshowfont=\toks56
-\MPscratchCnt=\count359
-\MPscratchDim=\dimen318
-\MPnumerator=\count360
-\makeMPintoPDFobject=\count361
+\MPscratchCnt=\count363
+\MPscratchDim=\dimen331
+\MPnumerator=\count364
+\makeMPintoPDFobject=\count365
 \everyMPtoPDFconversion=\toks57
 ) (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -841,48 +860,49 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-Package hyperref Info: Link coloring OFF on input line 18.
+Package hyperref Info: Link coloring OFF on input line 19.
+ (main.out) (main.out)
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  T1/AlegreyaSans-OsF/m/n --> T1/Alegreya-OsF/m/n on input line 18.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 18.
+(Font)                  T1/AlegreyaSans-OsF/m/n --> T1/Alegreya-OsF/m/n on input line 19.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 19.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  T1/Alegreya-OsF/b/n --> T1/Alegreya-OsF/b/n on input line 18.
+(Font)                  T1/Alegreya-OsF/b/n --> T1/Alegreya-OsF/b/n on input line 19.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/Alegreya-OsF/b/n --> T1/Alegreya-OsF/b/n on input line 18.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 18.
+(Font)                  T1/Alegreya-OsF/b/n --> T1/Alegreya-OsF/b/n on input line 19.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 19.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  T1/AlegreyaSans-OsF/m/n --> T1/AlegreyaSans-OsF/m/n on input line 18.
+(Font)                  T1/AlegreyaSans-OsF/m/n --> T1/AlegreyaSans-OsF/m/n on input line 19.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/AlegreyaSans-OsF/b/n --> T1/AlegreyaSans-OsF/m/n on input line 18.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 18.
+(Font)                  T1/AlegreyaSans-OsF/b/n --> T1/AlegreyaSans-OsF/m/n on input line 19.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 19.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  T1/Alegreya-OsF/m/it --> T1/Alegreya-OsF/m/it on input line 18.
+(Font)                  T1/Alegreya-OsF/m/it --> T1/Alegreya-OsF/m/it on input line 19.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/Alegreya-OsF/b/it --> T1/Alegreya-OsF/m/it on input line 18.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 18.
+(Font)                  T1/Alegreya-OsF/b/it --> T1/Alegreya-OsF/m/it on input line 19.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 19.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  T1/cmtt/m/n --> T1/cmtt/m/n on input line 18.
+(Font)                  T1/cmtt/m/n --> T1/cmtt/m/n on input line 19.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/cmtt/b/n --> T1/cmtt/m/n on input line 18.
+(Font)                  T1/cmtt/b/n --> T1/cmtt/m/n on input line 19.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  T1/Alegreya-OsF/m/n --> T1/Alegreya-OsF/b/n on input line 18.
+(Font)                  T1/Alegreya-OsF/m/n --> T1/Alegreya-OsF/b/n on input line 19.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  T1/Alegreya-OsF/m/it --> T1/Alegreya-OsF/b/it on input line 18.
+(Font)                  T1/Alegreya-OsF/m/it --> T1/Alegreya-OsF/b/it on input line 19.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  T1/AlegreyaSans-OsF/b/n --> T1/Alegreya-OsF/b/n on input line 18.
+(Font)                  T1/AlegreyaSans-OsF/b/n --> T1/Alegreya-OsF/b/n on input line 19.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  T1/Alegreya-OsF/b/n --> T1/Alegreya-OsF/b/n on input line 18.
+(Font)                  T1/Alegreya-OsF/b/n --> T1/Alegreya-OsF/b/n on input line 19.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  T1/AlegreyaSans-OsF/m/n --> T1/AlegreyaSans-OsF/b/n on input line 18.
+(Font)                  T1/AlegreyaSans-OsF/m/n --> T1/AlegreyaSans-OsF/b/n on input line 19.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  T1/Alegreya-OsF/m/it --> T1/Alegreya-OsF/b/it on input line 18.
+(Font)                  T1/Alegreya-OsF/m/it --> T1/Alegreya-OsF/b/it on input line 19.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  T1/cmtt/m/n --> T1/cmtt/b/n on input line 18.
+(Font)                  T1/cmtt/m/n --> T1/cmtt/b/n on input line 19.
  (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-basic-dictionary-English.dict
 Dictionary: translator-basic-dictionary, Language: English 
 ) (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/translator\translator-bibliography-dictionary-English.dict
@@ -898,20 +918,20 @@ Dictionary: translator-theorem-dictionary, Language: English
 )
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
-\c@mv@tabular=\count362
-\c@mv@boldtabular=\count363
-LaTeX Info: Redefining \microtypecontext on input line 18.
-Package microtype Info: Applying patch `item' on input line 18.
-Package microtype Info: Applying patch `toc' on input line 18.
-Package microtype Info: Applying patch `eqnum' on input line 18.
-Package microtype Info: Applying patch `verbatim' on input line 18.
+\c@mv@tabular=\count366
+\c@mv@boldtabular=\count367
+LaTeX Info: Redefining \microtypecontext on input line 19.
+Package microtype Info: Applying patch `item' on input line 19.
+Package microtype Info: Applying patch `toc' on input line 19.
+Package microtype Info: Applying patch `eqnum' on input line 19.
+Package microtype Info: Applying patch `verbatim' on input line 19.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 18.
+LaTeX Info: Redefining \showhyphens on input line 19.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -921,84 +941,397 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             See the microtype manual for details.
  (main.nav)
 LaTeX Font Info:    Font shape `T1/Alegreya-OsF/m/n' in size <6> not available
-(Font)              Font shape `T1/Alegreya-OsF/regular/n' tried instead on input line 18.
+(Font)              Font shape `T1/Alegreya-OsF/regular/n' tried instead on input line 19.
 LaTeX Font Info:    Font shape `T1/Alegreya-OsF/regular/n' will be
-(Font)              scaled to size 6.0pt on input line 18.
-LaTeX Font Info:    Trying to load font information for T1+AlegreyaSans-OsF on input line 18.
+(Font)              scaled to size 6.0pt on input line 19.
+LaTeX Font Info:    Trying to load font information for T1+AlegreyaSans-OsF on input line 19.
  (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/alegreya\t1alegreyasans-osf.fd
 File: T1AlegreyaSans-OsF.fd 2019/10/08 (autoinst) Font definitions for T1/AlegreyaSans-OsF.
 )
 LaTeX Font Info:    Font shape `T1/AlegreyaSans-OsF/m/n' in size <6> not available
-(Font)              Font shape `T1/AlegreyaSans-OsF/regular/n' tried instead on input line 18.
+(Font)              Font shape `T1/AlegreyaSans-OsF/regular/n' tried instead on input line 19.
 LaTeX Font Info:    Font shape `T1/AlegreyaSans-OsF/regular/n' will be
-(Font)              scaled to size 6.0pt on input line 18.
+(Font)              scaled to size 6.0pt on input line 19.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `AlegreyaSans-OsF' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 LaTeX Font Info:    Font shape `T1/AlegreyaSans-OsF/m/sc' in size <6> not available
-(Font)              Font shape `T1/AlegreyaSans-OsF/regular/sc' tried instead on input line 18.
+(Font)              Font shape `T1/AlegreyaSans-OsF/regular/sc' tried instead on input line 19.
 LaTeX Font Info:    Font shape `T1/AlegreyaSans-OsF/regular/sc' will be
-(Font)              scaled to size 6.0pt on input line 18.
+(Font)              scaled to size 6.0pt on input line 19.
 LaTeX Font Info:    Font shape `T1/Alegreya-OsF/m/n' in size <20.74> not available
-(Font)              Font shape `T1/Alegreya-OsF/regular/n' tried instead on input line 20.
+(Font)              Font shape `T1/Alegreya-OsF/regular/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `T1/Alegreya-OsF/regular/n' will be
-(Font)              scaled to size 20.74pt on input line 20.
+(Font)              scaled to size 20.74pt on input line 21.
 LaTeX Font Info:    Font shape `T1/AlegreyaSans-OsF/ub/n' in size <20.74> not available
-(Font)              Font shape `T1/AlegreyaSans-OsF/black/n' tried instead on input line 20.
+(Font)              Font shape `T1/AlegreyaSans-OsF/black/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `T1/AlegreyaSans-OsF/black/n' will be
-(Font)              scaled to size 20.74pt on input line 20.
+(Font)              scaled to size 20.74pt on input line 21.
 LaTeX Font Info:    Font shape `T1/AlegreyaSans-OsF/ub/n' in size <17.28> not available
-(Font)              Font shape `T1/AlegreyaSans-OsF/black/n' tried instead on input line 20.
+(Font)              Font shape `T1/AlegreyaSans-OsF/black/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `T1/AlegreyaSans-OsF/black/n' will be
-(Font)              scaled to size 17.28pt on input line 20.
+(Font)              scaled to size 17.28pt on input line 21.
 LaTeX Font Info:    Font shape `T1/AlegreyaSans-OsF/sb/n' in size <17.28> not available
-(Font)              Font shape `T1/AlegreyaSans-OsF/medium/n' tried instead on input line 20.
+(Font)              Font shape `T1/AlegreyaSans-OsF/medium/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `T1/AlegreyaSans-OsF/medium/n' will be
-(Font)              scaled to size 17.28pt on input line 20.
+(Font)              scaled to size 17.28pt on input line 21.
 LaTeX Font Info:    Font shape `T1/Alegreya-OsF/m/it' in size <12> not available
-(Font)              Font shape `T1/Alegreya-OsF/regular/it' tried instead on input line 20.
+(Font)              Font shape `T1/Alegreya-OsF/regular/it' tried instead on input line 21.
 LaTeX Font Info:    Font shape `T1/Alegreya-OsF/regular/it' will be
-(Font)              scaled to size 12.0pt on input line 20.
+(Font)              scaled to size 12.0pt on input line 21.
 LaTeX Font Info:    Font shape `T1/Alegreya-OsF/m/n' in size <14.4> not available
-(Font)              Font shape `T1/Alegreya-OsF/regular/n' tried instead on input line 20.
+(Font)              Font shape `T1/Alegreya-OsF/regular/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `T1/Alegreya-OsF/regular/n' will be
-(Font)              scaled to size 14.4pt on input line 20.
+(Font)              scaled to size 14.4pt on input line 21.
 LaTeX Font Info:    Font shape `T1/Alegreya-OsF/b/n' in size <14.4> not available
-(Font)              Font shape `T1/Alegreya-OsF/bold/n' tried instead on input line 20.
+(Font)              Font shape `T1/Alegreya-OsF/bold/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `T1/Alegreya-OsF/bold/n' will be
-(Font)              scaled to size 14.4pt on input line 20.
+(Font)              scaled to size 14.4pt on input line 21.
 LaTeX Font Info:    Font shape `T1/Alegreya-OsF/m/n' in size <10.95> not available
-(Font)              Font shape `T1/Alegreya-OsF/regular/n' tried instead on input line 20.
+(Font)              Font shape `T1/Alegreya-OsF/regular/n' tried instead on input line 21.
 LaTeX Font Info:    Font shape `T1/Alegreya-OsF/regular/n' will be
-(Font)              scaled to size 10.95pt on input line 20.
+(Font)              scaled to size 10.95pt on input line 21.
  [1
 
-{C:/Users/jacob/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}])
-Runaway argument?
-\@kernel@before@enddocument \UseOneTimeHook {enddocument}\@kernel@after@enddocument \ETC.
-! File ended while scanning use of \beamer@collect@@body.
-<inserted text> 
-                \par 
-<*> ...os/MATH512/Project 2/Presentation/main.tex"
-                                                  
-I suspect you have forgotten a `}', causing me
-to read past where you wanted me to stop.
-I'll try to recover; but if the error is serious,
-you'd better type `E' or `X' now and fix your file.
+{C:/Users/jacob/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+LaTeX Font Info:    Font shape `T1/AlegreyaSans-OsF/m/n' in size <12> not available
+(Font)              Font shape `T1/AlegreyaSans-OsF/regular/n' tried instead on input line 39.
+LaTeX Font Info:    Font shape `T1/AlegreyaSans-OsF/regular/n' will be
+(Font)              scaled to size 12.0pt on input line 39.
+LaTeX Font Info:    Font shape `T1/AlegreyaSans-OsF/m/n' in size <8> not available
+(Font)              Font shape `T1/AlegreyaSans-OsF/regular/n' tried instead on input line 39.
+LaTeX Font Info:    Font shape `T1/AlegreyaSans-OsF/regular/n' will be
+(Font)              scaled to size 8.0pt on input line 39.
+LaTeX Font Info:    Trying to load font information for U+zeur on input line 39.
+ (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/eulervm\uzeur.fd
+File: uzeur.fd 2005/01/11 v4.0 (WaS)
+) (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-eur.cfg
+File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+zeus on input line 39.
+ (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/eulervm\uzeus.fd
+File: uzeus.fd 2005/01/11 v4.0 (WaS)
+) (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-eus.cfg
+File: mt-eus.cfg 2006/07/28 v1.2 microtype config. file: AMS Euler Script (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+zeuex on input line 39.
+ (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/eulervm\uzeuex.fd
+File: uzeuex.fd 2005/01/11 v4.0 (WaS)
+) (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+) (C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Font shape `T1/Alegreya-OsF/m/n' in size <8> not available
+(Font)              Font shape `T1/Alegreya-OsF/regular/n' tried instead on input line 39.
+LaTeX Font Info:    Font shape `T1/Alegreya-OsF/regular/n' will be
+(Font)              scaled to size 8.0pt on input line 39.
+LaTeX Font Info:    Font shape `T1/Alegreya-OsF/m/it' in size <8> not available
+(Font)              Font shape `T1/Alegreya-OsF/regular/it' tried instead on input line 39.
+LaTeX Font Info:    Font shape `T1/Alegreya-OsF/regular/it' will be
+(Font)              scaled to size 8.0pt on input line 39.
+LaTeX Font Info:    Font shape `T1/Alegreya-OsF/m/it' in size <6> not available
+(Font)              Font shape `T1/Alegreya-OsF/regular/it' tried instead on input line 39.
+LaTeX Font Info:    Font shape `T1/Alegreya-OsF/regular/it' will be
+(Font)              scaled to size 6.0pt on input line 39.
+LaTeX Font Info:    Font shape `T1/Alegreya-OsF/m/n' in size <17.28> not available
+(Font)              Font shape `T1/Alegreya-OsF/regular/n' tried instead on input line 39.
+LaTeX Font Info:    Font shape `T1/Alegreya-OsF/regular/n' will be
+(Font)              scaled to size 17.28pt on input line 39.
+LaTeX Font Info:    Font shape `T1/Alegreya-OsF/sb/n' in size <17.28> not available
+(Font)              Font shape `T1/Alegreya-OsF/medium/n' tried instead on input line 39.
+LaTeX Font Info:    Font shape `T1/Alegreya-OsF/medium/n' will be
+(Font)              scaled to size 17.28pt on input line 39.
+LaTeX Font Info:    Font shape `T1/Alegreya-OsF/sb/n' in size <14.4> not available
+(Font)              Font shape `T1/Alegreya-OsF/medium/n' tried instead on input line 39.
+LaTeX Font Info:    Font shape `T1/Alegreya-OsF/medium/n' will be
+(Font)              scaled to size 14.4pt on input line 39.
+LaTeX Font Info:    Font shape `T1/Alegreya-OsF/m/n' in size <4> not available
+(Font)              Font shape `T1/Alegreya-OsF/regular/n' tried instead on input line 39.
+LaTeX Font Info:    Font shape `T1/Alegreya-OsF/regular/n' will be
+(Font)              scaled to size 4.0pt on input line 39.
+ [2
 
-! Emergency stop.
-<*> ...os/MATH512/Project 2/Presentation/main.tex"
-                                                  
-*** (job aborted, no legal \end found)
+]
+<imgs/1a.png, id=213, 234.1548pt x 192.9609pt>
+File: imgs/1a.png Graphic file (type png)
+<use imgs/1a.png>
+Package pdftex.def Info: imgs/1a.png  used on input line 46.
+(pdftex.def)             Requested size: 163.90723pt x 135.0717pt.
+ [3
 
- 
+ <./imgs/1a.png>] [4
+
+]
+<imgs/1d.png, id=348, 310.761pt x 192.9609pt>
+File: imgs/1d.png Graphic file (type png)
+<use imgs/1d.png>
+Package pdftex.def Info: imgs/1d.png  used on input line 75.
+(pdftex.def)             Requested size: 217.5312pt x 135.0717pt.
+ [5
+
+ <./imgs/1d.png>]
+File: imgs/1a.png Graphic file (type png)
+<use imgs/1a.png>
+Package pdftex.def Info: imgs/1a.png  used on input line 94.
+(pdftex.def)             Requested size: 117.0771pt x 96.48021pt.
+File: imgs/1d.png Graphic file (type png)
+<use imgs/1d.png>
+Package pdftex.def Info: imgs/1d.png  used on input line 94.
+(pdftex.def)             Requested size: 155.38011pt x 96.48021pt.
+
+Overfull \hbox (17.10062pt too wide) in paragraph at lines 94--94
+ [][] 
+ []
+
+[6
+
+]
+<imgs/pairs.png, id=482, 245.718pt x 192.9609pt>
+File: imgs/pairs.png Graphic file (type png)
+<use imgs/pairs.png>
+Package pdftex.def Info: imgs/pairs.png  used on input line 104.
+(pdftex.def)             Requested size: 147.43193pt x 115.77742pt.
+ [7
+
+ <./imgs/pairs.png>]
+LaTeX Font Info:    Font shape `T1/Alegreya-OsF/b/n' in size <12> not available
+(Font)              Font shape `T1/Alegreya-OsF/bold/n' tried instead on input line 116.
+LaTeX Font Info:    Font shape `T1/Alegreya-OsF/bold/n' will be
+(Font)              scaled to size 12.0pt on input line 116.
+ [8
+
+]
+LaTeX Font Info:    Font shape `T1/AlegreyaSans-OsF/m/n' in size <10.95> not available
+(Font)              Font shape `T1/AlegreyaSans-OsF/regular/n' tried instead on input line 138.
+LaTeX Font Info:    Font shape `T1/AlegreyaSans-OsF/regular/n' will be
+(Font)              scaled to size 10.95pt on input line 138.
+LaTeX Font Info:    Font shape `T1/Alegreya-OsF/m/it' in size <10.95> not available
+(Font)              Font shape `T1/Alegreya-OsF/regular/it' tried instead on input line 138.
+LaTeX Font Info:    Font shape `T1/Alegreya-OsF/regular/it' will be
+(Font)              scaled to size 10.95pt on input line 138.
+ [9
+
+]
+<imgs/discrete.png, id=688, 234.1548pt x 192.9609pt>
+File: imgs/discrete.png Graphic file (type png)
+<use imgs/discrete.png>
+Package pdftex.def Info: imgs/discrete.png  used on input line 144.
+(pdftex.def)             Requested size: 140.49396pt x 115.77742pt.
+ [10
+
+ <./imgs/discrete.png>]
+<imgs/binomialrv.png, id=756, 359.1819pt x 192.9609pt>
+File: imgs/binomialrv.png Graphic file (type png)
+<use imgs/binomialrv.png>
+Package pdftex.def Info: imgs/binomialrv.png  used on input line 160.
+(pdftex.def)             Requested size: 251.42561pt x 135.0717pt.
+
+
+Package amsmath Warning: Foreign command \atopwithdelims;
+(amsmath)                \frac or \genfrac should be used instead
+(amsmath)                 on input line 160.
+
+
+Overfull \vbox (16.54417pt too high) detected at line 160
+ []
+
+[11
+
+ <./imgs/binomialrv.png>]
+<imgs/binomialinverse.png, id=825, 362.0727pt x 192.9609pt>
+File: imgs/binomialinverse.png Graphic file (type png)
+<use imgs/binomialinverse.png>
+Package pdftex.def Info: imgs/binomialinverse.png  used on input line 165.
+(pdftex.def)             Requested size: 253.44916pt x 135.0717pt.
+ [12
+
+ <./imgs/binomialinverse.png>] [13
+
+] [14
+
+]
+<imgs/poissonrv.png, id=1028, 240.6591pt x 192.9609pt>
+File: imgs/poissonrv.png Graphic file (type png)
+<use imgs/poissonrv.png>
+Package pdftex.def Info: imgs/poissonrv.png  used on input line 185.
+(pdftex.def)             Requested size: 168.46022pt x 135.0717pt.
+ [15
+
+ <./imgs/poissonrv.png>] [16
+
+]
+<imgs/exprv.png, id=1163, 376.5267pt x 192.9609pt>
+File: imgs/exprv.png Graphic file (type png)
+<use imgs/exprv.png>
+Package pdftex.def Info: imgs/exprv.png  used on input line 201.
+(pdftex.def)             Requested size: 263.56688pt x 135.0717pt.
+ [17
+
+ <./imgs/exprv.png>] [18
+
+]
+<imgs/cauchyrv.png, id=1298, 352.6776pt x 192.9609pt>
+File: imgs/cauchyrv.png Graphic file (type png)
+<use imgs/cauchyrv.png>
+Package pdftex.def Info: imgs/cauchyrv.png  used on input line 221.
+(pdftex.def)             Requested size: 246.87262pt x 135.0717pt.
+ [19
+
+ <./imgs/cauchyrv.png>]
+LaTeX Font Info:    Font shape `U/px-math-ds/m/n' will be
+(Font)              scaled to size 12.0pt on input line 238.
+LaTeX Font Info:    Font shape `U/px-math-ds/m/n' will be
+(Font)              scaled to size 8.0pt on input line 238.
+LaTeX Font Info:    Font shape `U/px-math-ds/m/n' will be
+(Font)              scaled to size 6.0pt on input line 238.
+ [20
+
+] [21
+
+]
+
+LaTeX Warning: File `imgs/Rolling_Dice_HIstogram.jpg' not found on input line 256.
+
+
+c:/Users/jacob/Desktop/Repos/MATH512/Project 2/Presentation/main.tex:256: Package pdftex.def Error: File `imgs/Rolling_Dice_HIstogram.jpg' not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.256 \end{frame}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 256.
+(C:\Users\jacob\AppData\Local\Programs\MiKTeX\tex/latex/base\t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `cmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [22
+
+] [23
+
+]
+<imgs/balls.png, id=1637, 237.0456pt x 192.9609pt>
+File: imgs/balls.png Graphic file (type png)
+<use imgs/balls.png>
+Package pdftex.def Info: imgs/balls.png  used on input line 297.
+(pdftex.def)             Requested size: 71.11421pt x 57.8887pt.
+ [24
+
+ <./imgs/balls.png>] [25
+
+]
+<imgs/boxmuller.png, id=1775, 299.1978pt x 192.9609pt>
+File: imgs/boxmuller.png Graphic file (type png)
+<use imgs/boxmuller.png>
+Package pdftex.def Info: imgs/boxmuller.png  used on input line 318.
+(pdftex.def)             Requested size: 209.43701pt x 135.0717pt.
+ [26
+
+ <./imgs/boxmuller.png>] [27
+
+]
+<imgs/marsagliabray.png, id=1911, 320.1561pt x 192.9609pt>
+File: imgs/marsagliabray.png Graphic file (type png)
+<use imgs/marsagliabray.png>
+Package pdftex.def Info: imgs/marsagliabray.png  used on input line 339.
+(pdftex.def)             Requested size: 224.10773pt x 135.0717pt.
+ [28
+
+ <./imgs/marsagliabray.png>] [29
+
+]
+<imgs/acceptancerejection.png, id=2047, 344.7279pt x 192.9609pt>
+File: imgs/acceptancerejection.png Graphic file (type png)
+<use imgs/acceptancerejection.png>
+Package pdftex.def Info: imgs/acceptancerejection.png  used on input line 356.
+(pdftex.def)             Requested size: 241.30788pt x 135.0717pt.
+ [30
+
+ <./imgs/acceptancerejection.png>]
+<imgs/numpyrandomrv.png, id=2116, 317.2653pt x 192.9609pt>
+File: imgs/numpyrandomrv.png Graphic file (type png)
+<use imgs/numpyrandomrv.png>
+Package pdftex.def Info: imgs/numpyrandomrv.png  used on input line 366.
+(pdftex.def)             Requested size: 222.0842pt x 135.0717pt.
+LaTeX Font Info:    Font shape `T1/AlegreyaSans-OsF/m/n' in size <17.28> not available
+(Font)              Font shape `T1/AlegreyaSans-OsF/regular/n' tried instead on input line 366.
+LaTeX Font Info:    Font shape `T1/AlegreyaSans-OsF/regular/n' will be
+(Font)              scaled to size 17.28pt on input line 366.
+LaTeX Font Info:    Font shape `T1/AlegreyaSans-OsF/m/n' in size <10> not available
+(Font)              Font shape `T1/AlegreyaSans-OsF/regular/n' tried instead on input line 366.
+LaTeX Font Info:    Font shape `T1/AlegreyaSans-OsF/regular/n' will be
+(Font)              scaled to size 10.0pt on input line 366.
+LaTeX Font Info:    Font shape `U/px-math-ds/m/n' will be
+(Font)              scaled to size 17.28pt on input line 366.
+LaTeX Font Info:    Font shape `U/px-math-ds/m/n' will be
+(Font)              scaled to size 10.0pt on input line 366.
+LaTeX Font Info:    Font shape `T1/Alegreya-OsF/m/n' in size <10> not available
+(Font)              Font shape `T1/Alegreya-OsF/regular/n' tried instead on input line 366.
+LaTeX Font Info:    Font shape `T1/Alegreya-OsF/regular/n' will be
+(Font)              scaled to size 10.0pt on input line 366.
+LaTeX Font Info:    Font shape `T1/Alegreya-OsF/m/it' in size <17.28> not available
+(Font)              Font shape `T1/Alegreya-OsF/regular/it' tried instead on input line 366.
+LaTeX Font Info:    Font shape `T1/Alegreya-OsF/regular/it' will be
+(Font)              scaled to size 17.28pt on input line 366.
+LaTeX Font Info:    Font shape `T1/Alegreya-OsF/m/it' in size <10> not available
+(Font)              Font shape `T1/Alegreya-OsF/regular/it' tried instead on input line 366.
+LaTeX Font Info:    Font shape `T1/Alegreya-OsF/regular/it' will be
+(Font)              scaled to size 10.0pt on input line 366.
+ [31
+
+ <./imgs/numpyrandomrv.png>]
+Overfull \hbox (7.50583pt too wide) in paragraph at lines 384--384
+ [] 
+ []
+
+[32
+
+] [33
+
+]
+\tf@nav=\write6
+\openout6 = `main.nav'.
+
+\tf@toc=\write7
+\openout7 = `main.toc'.
+
+\tf@snm=\write8
+\openout8 = `main.snm'.
+
+ (main.aux)
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: D41D8CD98F00B204E9800998ECF8427E;0
+(rerunfilecheck)             After:  1484A76F0A41471F1660740BE41C30C7;1118.
+ ) 
 Here is how much of TeX's memory you used:
- 36070 strings out of 475385
- 760291 string characters out of 2776906
- 1075268 words of memory out of 3000000
- 56770 multiletter control sequences out of 15000+600000
- 636884 words of font info for 73 fonts, out of 8000000 for 9000
+ 36987 strings out of 475385
+ 781084 string characters out of 2776906
+ 1091384 words of memory out of 3000000
+ 57314 multiletter control sequences out of 15000+600000
+ 938907 words of font info for 263 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 128i,13n,122p,1063b,701s stack positions out of 10000i,1000n,20000p,200000b,80000s
-!  ==> Fatal error occurred, no output PDF file produced!
+ 128i,20n,122p,1063b,822s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/cm-super/cm-super-t1.enc}{C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/alegreya/algr_p7kywn.enc}{C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/alegreya/algr_u7nq5p.enc}{C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/alegreya/algr_dte76s.enc}<C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/huerta/alegreya/Alegreya-Bold.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/huerta/alegreya/Alegreya-Italic.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/huerta/alegreya/Alegreya-Medium.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/huerta/alegreya/Alegreya-Regular.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/huerta/alegreya/AlegreyaSans-Black.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/huerta/alegreya/AlegreyaSans-Regular.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/euex10.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eufm10.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eufm7.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eurm10.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eurm7.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/euler/eusm10.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/symbols/msam7.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/pxfonts/pxsyb.pfb><C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on main.pdf (33 pages, 876024 bytes).
+PDF statistics:
+ 2337 PDF objects out of 2487 (max. 8388607)
+ 79 named destinations out of 1000 (max. 500000)
+ 100977 words of extra memory for PDF output out of 106986 (max. 10000000)
+
