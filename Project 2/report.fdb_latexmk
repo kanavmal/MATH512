@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1708691913 "c:/Users/jacob/Desktop/Repos/MATH512/Project 2/report.tex" "report.pdf" "report" 1708691914
+["pdflatex"] 1708692587 "c:/Users/jacob/Desktop/Repos/MATH512/Project 2/report.tex" "report.pdf" "report" 1708692588
   "C:/Users/jacob/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1708439570 593692 ed241848a49175e459e7ae01beaca30e ""
   "C:/Users/jacob/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1666547453 10788011 2c52fbefbc7f413ada0758682a6b1c8d ""
   "C:/Users/jacob/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
@@ -60,7 +60,7 @@
   "C:/Users/jacob/AppData/Local/Programs/MiKTeX/tex/latex/graphics/trig.sty" 1665063979 4023 293ea1c16429fc0c4cf605f4da1791a9 ""
   "C:/Users/jacob/AppData/Local/Programs/MiKTeX/tex/latex/l3backend/l3backend-pdftex.def" 1664385028 30426 b4bd1ea7df6c51902df8edf551809fb7 ""
   "c:/Users/jacob/Desktop/Repos/MATH512/Project 2/report.tex" 1708045341 7472 4bf75766d485c7bf1bb456462545269f ""
-  "imgs/1a.png" 1708045341 12529 a2c98837aaabbe82fc80910878bb74bb ""
+  "imgs/1a.png" 1708692586 12827 ea9f680bb05d478dc04e9495c1bb0ab2 ""
   "imgs/1d.png" 1708045341 13389 059c1e40cbb449f5b32f54e6d6236165 ""
   "imgs/acceptancerejection.png" 1708045341 16871 9a5a0bae56db3d596ecf4cc8b8890a94 ""
   "imgs/balls.png" 1708045341 33879 959b03b06101cb54a9c8949127fc49f3 ""
@@ -74,7 +74,7 @@
   "imgs/numpyrandomrv.png" 1708045341 16471 c00a8a5d67fda06eb5e500e70666d3c4 ""
   "imgs/pairs.png" 1708045341 10315 224f3f8761c1634951d32564b370fcb1 ""
   "imgs/poissonrv.png" 1708691912 9896 2ed46ed1d58ff92c223bcb2a60af1d7c ""
-  "report.aux" 1708691914 32 1b174032087fb90900fa6203d3bb0a7e "pdflatex"
+  "report.aux" 1708692588 32 1b174032087fb90900fa6203d3bb0a7e "pdflatex"
   "report.tex" 1708045341 7472 4bf75766d485c7bf1bb456462545269f ""
   (generated)
   "report.aux"
