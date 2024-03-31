@@ -59,3 +59,11 @@ savefig("./imgs/3a_comparison.png")
 # 𝐸[𝑋1] = mean(x) and 𝐸[𝑋(1)] = x_exact[end]
 C = abs(mean(x) - x_exact[end])/Δt
 println("C = ", C)
+
+# b) Show that the Euler Maruyama method has strong order of convergence equal to one half. That is
+# 𝐸|𝑋1− 𝑋(1)| = 𝐶Δ𝑡0.5. Here 𝑋(1) is the exact solution at time 1 and 𝑋1 is the computed solution at time 1.
+
+# show that the Euler Maruyama method has strong order of convergence equal to one half
+# 𝐸|𝑋1− 𝑋(1)| = 𝐶Δ𝑡0.5
+C = abs(mean(x .- x_exact))/Δt^0.5
+println("C = ", C)
