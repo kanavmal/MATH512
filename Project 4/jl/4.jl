@@ -3,200 +3,81 @@
 # a) Simulate (over the interval [0,20]) this stochastic process using an implicit method of the form
 # 𝑋𝑛+1 = 𝑋𝑛 + (1 − 𝜃)𝛥𝑡𝑓(𝑋𝑛) + 𝜃𝛥𝑡𝑓(𝑋𝑛+1) + √𝛥𝑡𝛼𝑛𝑔(𝑋𝑛)
 
-using Plots
+# using Plots
+using Colors, Plots;gr()
 using Random
 using Statistics
 using LaTeXStrings
 using DifferentialEquations
 
-function f(x, mu)
-    return mu * x
+function f(x, μ)
+    return μ*x
 end
 
-function g(x, sigma)
-    return sigma * x
+function g(x, σ)
+    return σ*x
 end
 
-function implicit_method(mu, sigma, x0, t, dt, theta)
-    n = Int(t / dt)
-    x = zeros(n + 1)
-    x[1] = x0
-    for i in 1:n
-        dw = sqrt(dt) * randn()
-        x[i + 1] = x[i] + (1 - theta) * dt * f(x[i], mu) + theta * dt * f(x[i + 1], mu) + sqrt(dt) * g(x[i], sigma) * dw
+function implicit_euler(μ, σ, θ, Δt, N)
+    x = zeros(N)
+    x[1] = 3
+    for i in 2:N
+        α = randn()
+        x[i] = x[i-1] + (1-θ)*Δt*f(x[i-1], μ) + θ*Δt*f(x[i], μ) + sqrt(Δt)*g(x[i-1], σ)*α
     end
     return x
 end
 
+μ = 2
+σ = 0.10
+θ = 0.5
+Δt = 0.01
+N = 2000
+x = implicit_euler(μ, σ, θ, Δt, N)
+t = 0:Δt:20-Δt
+plot(t, x, label = "Implicit Euler", xlabel = L"t", ylabel = L"X(t)", title = "Implicit Euler Method", legend = :topleft, dpi = 1000)
+savefig("imgs/4implicit_euler.png")
 
-mu = 2
-sigma = 0.10
-x0 = 3
-t = 20
-dt = 0.01
-theta = 0.5
-
-x = implicit_method(mu, sigma, x0, t, dt, theta)
-plot(0:dt:t, x, label=L"X(t)", xlabel="Time", ylabel="Value", title=L"Stochastic process $X(t)$", legend=:topleft)
-savefig("./imgs/4a.png")
-
-
-# b) Compare with the analytical solution.
-
-function analytical_solution(mu, sigma, x0, t, dt)
-    n = Int(t / dt)
-    x = zeros(n + 1)
-    x[1] = x0
-    for i in 1:n
-        dw = sqrt(dt) * randn()
-        x[i + 1] = x0 * exp((mu - 0.5 * sigma^2) * i * dt + sigma * dw)
+# b) Repeat the simulation using the explicit Euler method
+function explicit_euler(μ, σ, Δt, N)
+    x = zeros(N)
+    x[1] = 3
+    for i in 2:N
+        α = randn()
+        x[i] = x[i-1] + Δt*f(x[i-1], μ) + sqrt(Δt)*g(x[i-1], σ)*α
     end
     return x
 end
 
-x_analytical = analytical_solution(mu, sigma, x0, t, dt)
-plot!(0:dt:t, x_analytical, label=L"$X(t)$ (Analytical)", xlabel="Time", ylabel="Value", title=L"Stochastic process $X(t)$", legend=:topleft)
-savefig("./imgs/4b.png")
+x = explicit_euler(μ, σ, Δt, N)
+plot(t, x, label = "Explicit Euler", xlabel = L"t", ylabel = L"X(t)", title = "Explicit Euler Method", legend = :topleft, dpi = 1000)
+plot!(t, implicit_euler(μ, σ, θ, Δt, N), label = "Implicit Euler", dpi = 1000)
+savefig("imgs/4explicit_euler.png")
 
 # c) For what values of 𝜇 𝑎𝑛𝑑 𝜎 is the SDE mean-square stable.
-
 # The SDE is mean-square stable if the following condition is satisfied:
 # It is called mean-square stable if, for every ε > 0, there exists δ > 0 such that
 # E[|X(t)|^2] ≤ ε for all t ≥ 0 whenever E[|X(0)|^2] ≤ δ.
-# Let's test this condition
 
-
-# Test for mean-square stability
-function test_mean_square_stability(mu, sigma, x0, t, dt, theta)
-    n = Int(t / dt)
-    x = zeros(n + 1)
-    x[1] = x0
-    for i in 1:n
-        dw = sqrt(dt) * randn()
-        x[i + 1] = x[i] + (1 - theta) * dt * f(x[i], mu) + theta * dt * f(x[i + 1], mu) + sqrt(dt) * g(x[i], sigma) * dw
-    end
-    return mean(x.^2)
-end
-
-# Test for different values of mu and sigma
-mu_values = 0:0.1:5
-sigma_values = 0.01:0.01:0.5
-stable_mu_sigma = []
-for mu in mu_values
-    for sigma in sigma_values
-        x = test_mean_square_stability(mu, sigma, x0, t, dt, theta)
-        if x < 1e6
-            push!(stable_mu_sigma, (mu, sigma, x))
+# Getting the values of μ and σ that make the SDE mean-square stable
+# ranges of μ and σ
+μ = 0:0.1:20
+σ = 0:0.1:60
+stable = []
+for μ in μ
+    for σ in σ
+        y = implicit_euler(μ, σ, θ, Δt, N)
+        if mean(y.^2) < 1
+            push!(stable, (μ, σ))
         end
     end
 end
 
-# print the range for which mu and sigma are mean-square stable
-range_mu = (minimum([x[1] for x in stable_mu_sigma]), maximum([x[1] for x in stable_mu_sigma]))
-range_sigma = (minimum([x[2] for x in stable_mu_sigma]), maximum([x[2] for x in stable_mu_sigma]))
-println("Mean-square stable range for mu: ", range_mu)
-println("Mean-square stable range for sigma: ", range_sigma)
+# plotting the values of μ and σ that make the SDE mean-square stable
+μ = [x[1] for x in stable]
+σ = [x[2] for x in stable]
 
-# d) For what values of 𝜃 is the implicit method mean-square stable.
-
-# The implicit method is mean-square stable if the following condition is satisfied:
-# It is called mean-square stable if, for every ε > 0, there exists δ > 0 such that
-# E[|X(t)|^2] ≤ ε for all t ≥ 0 whenever E[|X(0)|^2] ≤ δ.
-# Let's test this condition
-
-# Test for mean-square stability
-function test_mean_square_stability(mu, sigma, x0, t, dt, theta)
-    n = Int(t / dt)
-    x = zeros(n + 1)
-    x[1] = x0
-    for i in 1:n
-        dw = sqrt(dt) * randn()
-        x[i + 1] = x[i] + (1 - theta) * dt * f(x[i], mu) + theta * dt * f(x[i + 1], mu) + sqrt(dt) * g(x[i], sigma) * dw
-    end
-    return mean(x.^2)
-end
-
-# Test for different values of theta
-theta_values = 0:0.1:1
-stable_theta = []
-for theta in theta_values
-    x = test_mean_square_stability(mu, sigma, x0, t, dt, theta)
-    if x < 1e6
-        push!(stable_theta, (theta, x))
-    end
-end
-
-# print the range for which theta is mean-square stable
-range_theta = (minimum([x[1] for x in stable_theta]), maximum([x[1] for x in stable_theta]))
-println("Mean-square stable range for theta: ", range_theta)
-
-# e) For what values of 𝜇 𝑎𝑛𝑑 𝜎 is the SDE asymptotically stable.
-
-# The SDE is asymptotically stable if the following condition is satisfied:
-# It is called asymptotically stable if, for every ε > 0, there exists δ > 0 such that
-# lim t→∞ E[|X(t)|^2] ≤ ε whenever E[|X(0)|^2] ≤ δ.
-# Let's test this condition
-
-# Test for asymptotic stability
-function test_asymptotic_stability(mu, sigma, x0, t, dt, theta)
-    n = Int(t / dt)
-    x = zeros(n + 1)
-    x[1] = x0
-    for i in 1:n
-        dw = sqrt(dt) * randn()
-        x[i + 1] = x[i] + (1 - theta) * dt * f(x[i], mu) + theta * dt * f(x[i + 1], mu) + sqrt(dt) * g(x[i], sigma) * dw
-    end
-    return mean(x.^2)
-end
-
-# Test for different values of mu and sigma
-mu_values = 0:0.1:5
-sigma_values = 0.01:0.01:0.5
-stable_mu_sigma = []
-for mu in mu_values
-    for sigma in sigma_values
-        x = test_asymptotic_stability(mu, sigma, x0, t, dt, theta)
-        if x < 1e6
-            push!(stable_mu_sigma, (mu, sigma, x))
-        end
-    end
-end
-
-# print the range for which mu and sigma are asymptotically stable
-range_mu = (minimum([x[1] for x in stable_mu_sigma]), maximum([x[1] for x in stable_mu_sigma]))
-range_sigma = (minimum([x[2] for x in stable_mu_sigma]), maximum([x[2] for x in stable_mu_sigma]))
-println("Asymptotically stable range for mu: ", range_mu)
-println("Asymptotically stable range for sigma: ", range_sigma)
-
-# f) For what values of 𝜃 is the Implicit method asymptotically stable
- 
-# The implicit method is asymptotically stable if the following condition is satisfied:
-# It is called asymptotically stable if, for every ε > 0, there exists δ > 0 such that
-# lim t→∞ E[|X(t)|^2] ≤ ε whenever E[|X(0)|^2] ≤ δ.
-# Let's test this condition
-
-# Test for asymptotic stability
-function test_asymptotic_stability(mu, sigma, x0, t, dt, theta)
-    n = Int(t / dt)
-    x = zeros(n + 1)
-    x[1] = x0
-    for i in 1:n
-        dw = sqrt(dt) * randn()
-        x[i + 1] = x[i] + (1 - theta) * dt * f(x[i], mu) + theta * dt * f(x[i + 1], mu) + sqrt(dt) * g(x[i], sigma) * dw
-    end
-    return mean(x.^2)
-end
-
-# Test for different values of theta
-theta_values = 0:0.1:1
-stable_theta = []
-for theta in theta_values
-    x = test_asymptotic_stability(mu, sigma, x0, t, dt, theta)
-    if x < 1e6
-        push!(stable_theta, (theta, x))
-    end
-end
-
-# print the range for which theta is asymptotically stable
-range_theta = (minimum([x[1] for x in stable_theta]), maximum([x[1] for x in stable_theta]))
-println("Asymptotically stable range for theta: ", range_theta)
+edges_x = 0:0.5:20
+edges_y = 0:0.5:60
+histogram2d(μ, σ, bins = (edges_y, edges_x), xlabel = L"\mu", ylabel = L"\sigma", title = "Mean Square Stable", dpi = 1000)
+savefig("imgs/4mean_square_stable.png")
