@@ -62,7 +62,7 @@ savefig("imgs/4explicit_euler.png")
 # Getting the values of μ and σ that make the SDE mean-square stable
 # ranges of μ and σ
 μ = 0:0.1:20
-σ = 0:0.1:60
+σ = 0:0.1:20
 stable = []
 for μ in μ
     for σ in σ
@@ -77,7 +77,7 @@ end
 μ = [x[1] for x in stable]
 σ = [x[2] for x in stable]
 
-edges_x = 0:0.5:20
-edges_y = 0:0.5:60
+edges_x = 0:0.1:20
+edges_y = 0:0.1:20
 histogram2d(μ, σ, bins = (edges_y, edges_x), xlabel = L"\mu", ylabel = L"\sigma", title = "Mean Square Stable", dpi = 1000)
 savefig("imgs/4mean_square_stable.png")
