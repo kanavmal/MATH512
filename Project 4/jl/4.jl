@@ -61,7 +61,7 @@ savefig("imgs/4explicit_euler.png")
 
 # Getting the values of μ and σ that make the SDE mean-square stable
 # ranges of μ and σ
-μ = 0:0.1:20
+μ = 0:0.1:75
 σ = 0:0.1:20
 stable = []
 for μ in μ
@@ -78,6 +78,32 @@ end
 σ = [x[2] for x in stable]
 
 edges_x = 0:0.1:20
-edges_y = 0:0.1:20
-histogram2d(μ, σ, bins = (edges_y, edges_x), xlabel = L"\mu", ylabel = L"\sigma", title = "Mean Square Stable", dpi = 1000)
+edges_y = 0:0.1:75
+histogram2d(μ, σ, bins = (edges_y, edges_x), xlabel = L"\mu", ylabel = L"\sigma", title = "Mean Square Stable", dpi = 1000, c = :blues)
 savefig("imgs/4mean_square_stable.png")
+
+# d) For what values of 𝜃 is the implicit method mean-square stable
+
+# Getting the values of θ that make the implicit method mean-square stable
+θ = -1:0.01:1
+stable = []
+# setting μ and σ to 2 and 0.10 respectively
+μ = 2
+σ = 0.10
+for t in θ
+    y = implicit_euler(μ, σ, t, Δt, N)
+    if mean(y.^2) < 1
+        push!(stable, t)
+        println("θ = $t is mean-square stable")
+    end
+end
+
+# plotting the values of θ that make the implicit method mean-square stable
+histogram(stable, bins = 50, xlabel = L"\theta", ylabel = "Frequency", title = "Mean Square Stable", dpi = 1000, c = :blues)
+savefig("imgs/4mean_square_stable_theta.png")
+
+# e) For what values of 𝜇 𝑎𝑛𝑑 𝜎 is the SDE asymptotically stable.
+# The SDE is asymptotically stable if the following condition is satisfied:
+# It is called asymptotically stable if, for every ε > 0, there exists δ > 0 such that
+# lim t→∞ E[|X(t)|^2] = 0 whenever E[|X(0)|^2] ≤ δ.
+
