@@ -4,27 +4,108 @@
 \usepackage{float}
 \usepackage[shortlabels]{enumitem}
 \usepackage{graphicx} % Required for inserting images
-
-\title{MATH512 - Project 3}
+\title{MATH512 - Project 4}
 \author{Wasif Ahmed, Haoxiang Deng, Jacob Fein-Ashley, Kanav Malhotra, Longzhe Yang}
-\date{February 2024}
+\date{April 2024}
 
 \begin{document}
 
 \maketitle
 
-\section*{Problem 1}
-% Let 𝑊𝑡 be a standard Wiener process, that is the drift parameter is zero and the Variance parameter 𝜎2 = 1.
-% Suppose that we divide the interval [0,2] 𝑖𝑛𝑡𝑜 𝐿 𝑠𝑢𝑏𝑖𝑛𝑡𝑒𝑟𝑣𝑎𝑙𝑠 [𝑡𝑖, 𝑡𝑖+1], 𝑤𝑖𝑡ℎ 𝑡𝑖 = 𝑖𝛿𝑡 𝑎𝑛𝑑 𝛿𝑡 = 2/𝐿. Let
-% 𝑊𝑖 = 𝑊(𝑡𝑖 ) 𝑎𝑛𝑑 𝛿𝑊𝑖 = 𝑊𝑖+1 − 𝑊𝑖. Verify numerically that
-% a) ∑ |𝛿𝑊𝑖|𝐿−1
-% 𝑖=0 is unbounded as 𝛿𝑡 goes to zero
-% b) ∑ 𝛿𝑊𝑖2𝐿−1
-% 𝑖=0 converges to 2 in probability as 𝛿𝑡 goes to zero
+\section*{Question 1}
 
-\begin{enumerate}[(a)]
+Refer to Figure~\ref{fig:convergence1}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.6]{imgs/convergence1.png}
+    \caption{Stochastic Plots}
+    \label{fig:convergence1}
+\end{figure}
+
+Notice that as the $L$ parameter increases, the $|\delta W_i|$ term is unbounded while $\delta W_i^2$ converges to $2$ in probability.
+
+\section*{Question 2}
+
+\begin{enumerate}
     \item 
-        W
+        \begin{figure}[H]
+            \centering
+            \includegraphics[scale=0.6]{imgs/2a.png}
+            \caption{2a}
+            \label{fig:2a}
+        \end{figure}
+
+    \item 
+        \begin{figure}[H]
+            \centering
+            \includegraphics[scale=0.6]{imgs/2b.png}
+            \caption{2b}
+            \label{fig:2b}
+        \end{figure}
     \item
+        \begin{figure}[H]
+            \centering
+            \includegraphics[scale=0.6]{imgs/2c.png}
+            \caption{2c}
+            \label{fig:2c}
+        \end{figure}
+    \item
+        \begin{figure}[H]
+            \centering
+            \includegraphics[scale=0.6]{imgs/2d.png}
+            \caption{2d}
+            \label{fig:2d}
+        \end{figure}
+    \item
+        \begin{figure}[H]
+            \centering
+            \includegraphics[scale=0.6]{imgs/2e.png}
+            \caption{2e}
+            \label{fig:2e}
+        \end{figure}
+
+    \item 
+        \begin{figure}[H]
+            \centering
+            \includegraphics[scale=0.6]{imgs/2f.png}
+            \caption{2f}
+            \label{fig:2f}
+        \end{figure}
 \end{enumerate}
+
+\section*{Question 3}
+
+\section*{Question 4}
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.05]{imgs/4implicit_euler.png}
+    \caption{Implicit Euler}
+    \label{fig:impliciteuler}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.05]{imgs/4explicit_euler.png}
+    \caption{Explicit Euler}
+    \label{fig:expliciteuler}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.05]{imgs/4mean_square_stable.png}
+    \caption{Mean Square Stable Values}
+    \label{fig:meansq}
+\end{figure}
+
+
+
+\section*{Question 5}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.6]{imgs/5.png}
+    \caption{5}
+    \label{fig:5}
+\end{figure}
 \end{document}
